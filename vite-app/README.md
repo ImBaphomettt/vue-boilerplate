@@ -11,7 +11,7 @@ The project structure can also be refined; this is primarily a functional and vi
 You are, of course, free to use it or not.
 
 To display the interface in-game, run:
-
+ 
 ```bash
 show-interface
 ```
