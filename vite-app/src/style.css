@@ -1,0 +1,133 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
+/* 100 - Thin */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* 200 - ExtraLight */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+/* 300 - Light */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* 400 - Regular */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 500 - Medium */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* 600 - SemiBold */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* 700 - Bold */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 800 - ExtraBold */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* 900 - Black */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/static/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+    background-color: transparent;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.fin {
+    font-weight: 100;
+}
+
+:root {
+    font-size: 1.48vh;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

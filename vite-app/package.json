@@ -1,0 +1,33 @@
+{
+  "name": "rivtech-interface-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "dev:game": "vite build --watch",
+    "start": "concurrently -n \"BUILD,PREVIEW\" -c \"blue,green\" \"pnpm dev:game\" \"pnpm dev\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.22",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.18",
+    "typescript": "~5.9.3",
+    "vite": "npm:rolldown-vite@7.2.5",
+    "vue-tsc": "^3.1.4"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:rolldown-vite@7.2.5"
+    }
+  }
+}
